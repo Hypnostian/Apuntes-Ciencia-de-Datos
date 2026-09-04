@@ -65,6 +65,7 @@ if input_mode == "Dibujar":
 		height=CANVAS_SIZE,
 		width=CANVAS_SIZE,
 		drawing_mode="freedraw",
+		return_image_data=True,
 		key="prenda_canvas",
 	)
 	if canvas_result.image_data is not None:
